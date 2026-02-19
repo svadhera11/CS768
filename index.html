@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CS 768 · Learning with Graphs · Autumn 2025</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="#">CS 768</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#projects">Projects</a>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="course-tag">CS 768 · IIT Bombay</div>
+    <h1>Learning with Graphs</h1>
+    <div class="meta">
+      <span class="meta-item">Autumn 2025</span>
+      <span class="meta-item" aria-hidden="true">·</span>
+      <span class="meta-item">Instructor: <a href="mailto:abir@cse.iitb.ac.in">Abir De</a></span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="info-grid">
+    <div class="info-card">
+      <div class="label">Lectures</div>
+      <div class="value">Tue &amp; Thu, 10:30–11:55 AM</div>
+    </div>
+    <div class="info-card">
+      <div class="label">Venue</div>
+      <div class="value">LH 301</div>
+    </div>
+    <div class="info-card">
+      <div class="label">Office Hours</div>
+      <div class="value">By Appointment</div>
+    </div>
+  </div>
+
+  <section>
+    <h2 class="section-title">Announcements</h2>
+
+    <!-- Add new announcements at the top -->
+    <div class="announcement">
+      <div class="ann-date">Autumn 2025</div>
+      <p>Welcome to CS 768! Course details and the tentative schedule are below.</p>
+    </div>
+
+    <!-- Template (copy and paste above the previous one to add more):
+    <div class="announcement">
+      <div class="ann-date">DD Mon YYYY</div>
+      <p>Your announcement text here.</p>
+    </div>
+    -->
+
+  </section>
+
+  <section>
+    <h2 class="section-title">About</h2>
+    <p>
+      This course covers machine learning methods that operate on graph-structured and set-structured data. Topics include graph neural networks, combinatorial optimization, link prediction, information cascades, DeepSets, set distances, and locality sensitive hashing — with an emphasis on reading and implementing recent research papers.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Prerequisites</h2>
+    <p>
+      Linear algebra, probability, and basic machine learning (CS 419 or equivalent). Familiarity with Python and PyTorch is expected.
+    </p>
+  </section>
+
+  <section id="schedule">
+    <h2 class="section-title">Schedule</h2>
+    <p class="section-note">Tentative. Topics subject to change.</p>
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th>Week</th>
+          <th>Topic</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="week-label">1</span></td>
+          <td>Graph Neural Networks</td>
+        </tr>
+        <tr>
+          <td><span class="week-label">2</span></td>
+          <td>Graph Distances</td>
+        </tr>
+        <tr>
+          <td><span class="week-label">3</span></td>
+          <td>
+            Combinatorial Algorithms and GNN
+            <small>VC, IS, MaxClique, TSP &nbsp;·&nbsp; Neural Algorithmic Reasoning &nbsp;·&nbsp; Graph Matching (Optimal Transport)</small>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="week-label">4</span></td>
+          <td>Link Prediction</td>
+        </tr>
+        <tr>
+          <td><span class="week-label">5</span></td>
+          <td>Information Cascades</td>
+        </tr>
+        <tr>
+          <td><span class="week-label">6</span></td>
+          <td>DeepSets</td>
+        </tr>
+        <tr>
+          <td><span class="week-label">7</span></td>
+          <td>Set Distances</td>
+        </tr>
+        <tr>
+          <td><span class="week-label">8</span></td>
+          <td>Locality Sensitive Hashing (LSH)</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2 class="section-title">Grading</h2>
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Weight</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Midsem</td><td>20%</td><td>In-class</td></tr>
+        <tr><td>Endsem</td><td>40%</td><td>In-class</td></tr>
+        <tr><td>Project</td><td>20%</td><td>See Moodle</td></tr>
+        <tr><td>Quiz / Assignment</td><td>20%</td><td>See Moodle</td></tr>
+        <tr class="table-note"><td colspan="3">5–10% perturbation on final grades possible.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2 class="section-title">Policies</h2>
+    <p><strong>Collaboration.</strong> Discussion is encouraged; all submitted work must be your own. Cite any external sources.</p>
+    <p><strong>Late submissions.</strong> 20% penalty per day unless an extension is requested in advance.</p>
+    <p><strong>Academic integrity.</strong> IIT Bombay's academic integrity policy applies in full.</p>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Course Projects</h2>
+    <p class="section-note">Each student or team selects a recent research paper and builds a project around it. Code and the papers they are based on are linked below.</p>
+
+    <!-- ── HOW TO ADD A PROJECT ──────────────────────────────────────────────
+      Copy a .showcase-card div below and fill in the fields.
+      Remove any links that are not yet available.
+
+      <div class="showcase-card">
+        <div class="student-name">Student Name(s)</div>
+        <div class="proj-title">Project Title</div>
+        <div class="pres-title">Paper Title</div>
+        <div class="pres-meta">Author(s) · Venue Year</div>
+        <div class="proj-links">
+          <a class="btn" href="https://github.com/...">GitHub</a>
+          <a class="btn" href="https://...">Paper</a>
+        </div>
+      </div>
+    ──────────────────────────────────────────────────────────────────────── -->
+
+    <div class="showcase-grid">
+      <p class="empty-state">Projects will be posted here once they are submitted.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  CS 768 · Learning with Graphs · Autumn 2025 · IIT Bombay &nbsp;·&nbsp; Abir De
+</footer>
+
+</body>
+</html>
