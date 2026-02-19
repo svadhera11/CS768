@@ -216,27 +216,33 @@ section > p + p { margin-top: 0.75rem; }
   color: var(--muted);
   white-space: nowrap;
 }
-/* Sub-topic line inside a table cell */
-.styled-table td small {
-  display: block;
-  font-size: 0.8rem;
-  color: var(--muted);
-  margin-top: 0.2rem;
-}
 /* Footnote row at the bottom of a table */
 .table-note td {
   font-size: 0.82rem;
   color: var(--muted);
   font-style: italic;
 }
-.week-label {
-  font-family: var(--mono-font);
-  font-size: 0.72rem;
-  background: var(--accent-lt);
-  color: var(--accent);
-  padding: 0.15rem 0.45rem;
-  border-radius: 3px;
-  font-weight: 500;
+
+/* ── Syllabus list ── */
+.syllabus-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.syllabus-list li {
+  padding: 0.7rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+  font-size: 0.93rem;
+}
+.syllabus-list li small {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.2rem;
 }
 
 /* ── Buttons ── */
